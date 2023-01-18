@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleDesktop.css" type="text/css">
+    <title>ONE-ENCRIP</title>
+</head>
+
+<body class="allBoxes">
+    <section class="main">
+        <!-----------LOGO ALURA------------->
+        <container class="logoAlura" id="logoAlura">
+            <img src="img/aluralogo.png" alt="imagen" class="logoAluraM">
+
+        </container>
+        <!-----------INGRESO DE TEXTO------------->
+        <container class="ingText" id="ingText">
+            <textarea name="texto" id="texto" class="textInput" name="comment" cols="30" rows="5"
+                placeholder="Ingrese el texto aqui"></textarea>
+        </container>
+        <!-----------INTERROGANTE INFORMACION------------->
+        <container class="inf" id="inf">
+            <img src="img/interrogante.png" alt="imagen" id="inter">
+            <p>Solo letras minúsculas y sin acentos</p>
+        </container>
+        <!-----------BOTONES ENCIPTAR/ DESENCRIPTAR ------------->
+        <container class="botonesAll" id="botones">
+            <div>
+                <button id="encri" class="box-encriptar" type="button"> Encriptar</button>
+            </div>
+            <div>
+                <button id="desencri" class="box-desencriptar" type="button">Desencriptar</button>
+            </div>
+        </container>
+    </section>
+    <!-----------Caja de mensaje------------->
+    <container class="boxMensaje" id="noResuelto">
+
+        <div class="contenido_no_resuelto" id="box-msg">
+            <img src="img/Muñeco.png" alt="imagen" id="muneco">
+            <p class="main-msg" id="main-msg"><strong>Ningún mensaje fue encontrado</strong></p><br>
+            <p class="second-msg" id="second-msg">Ingresa el texto que desees encriptar o desencriptar.</p>
+
+            <textarea id="textoResultado" class="text2" name="comment" cols="30" rows="5"></textarea>
+            <button id="copiar" type="button" name="buttem" onclick="copiar()">Copiar</button>
+        </div>
+
+    </container>
+
+
+
+
+</body>
+
+<script src="script.js"></script>
+
+</html>

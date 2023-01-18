@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*-------------------------------------------------- */
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    height: 983px;
+    background-color: #F3F5FC;
+}
+
+.logoAlura {
+    width: 375px;
+    height: 100px;
+
+}
+
+.logoAluraM {
+    width: 32px;
+    height: 48px;
+    margin: 16px;
+
+}
+
+/*---------------------------INGRESAR TEXTO----------------------- */
+.ingText {
+    display: flex;
+    justify-content: center;
+    width: 375px;
+    height: 400px;
+
+}
+
+.textInput {
+    width: 343px;
+    height: 400px;
+    font-size: 32px;
+    color: #0A3871;
+    background-color: #F3F5FC;
+
+}
+
+.textInput::placeholder {
+    color: #0A3871;
+}
+
+/*------------------------INTERROGANTE-------------------------- */
+.inf {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 375px;
+    height: 25px;
+    color: #495057;
+    font-size: 12px;
+}
+
+#inter {
+    margin: 0 10px 0px 16px;
+    Width: 16px;
+    Height: 16px;
+}
+
+/*--------------------------BOTONES------------------------ */
+.botones {
+    width: 375px;
+    height: 200px;
+}
+
+.box-encriptar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 343px;
+    height: 67px;
+    margin: 16px;
+    border-radius: 24px;
+    background-color: #F3F5FC;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    font-size: 16px;
+}
+
+.box-encriptar:hover {
+    color: #E5E5E5;
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+}
+
+.box-desencriptar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 343px;
+    height: 67px;
+    margin: 16px;
+    border-radius: 24px;
+    background-color: #F3F5FC;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    font-size: 16px;
+}
+
+.box-desencriptar:hover {
+    color: #E5E5E5;
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+}
+
+/*--------------------------CAJA TEXTO---------------------------*/
+.boxMensaje {
+    display: flex;
+    justify-content: center;
+    width: 375px;
+    height: 200px;
+}
+
+.contenido_no_resuelto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: aqua;
+    width: 327px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.main-msg {
+    color: #343A40;
+    width: 263px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.second-msg {
+    width:263px;
+    text-align: center;
+    font-size: 16px;
+    color: #495057;
+}
+.text2{
+    font-size: 24px;
+    width: 279px;
+    color: #495057;
+    display: none;
+}
+#copiar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    height: 67px;
+    margin: 16px;
+    border-radius: 24px;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    font-size: 16px;
+    display: none;
+    background-color: #F3F5FC;
+}
+#copiar:hover {
+    color: #E5E5E5;
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 15px;
+    color: #495057;
+    font-size: 12px;
+}
+
+
+
+
